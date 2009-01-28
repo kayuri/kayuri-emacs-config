@@ -1,0 +1,5 @@
+This is my GNU Emacs configuration file with:
+    1. CEDET v.1.0
+    2. Emacs Code Browser (lattest from cvs)
+    3. SLIME (lattest from cvs)
+    4. haskell-mode (lattest from cvs)
