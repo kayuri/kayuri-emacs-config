@@ -1,0 +1,22 @@
+;; Object rc/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "rc/"
+  :tables (list 
+   (semanticdb-table "emacs-rc-cedet.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("load-file" code nil nil [2 48]) ("semantic-load-enable-code-helpers" code nil nil [50 85]) ("global-semantic-idle-completions-mode" code nil nil [86 127]) ("semantic-load-enable-guady-code-helpers" code nil nil [128 169]) ("setq" code nil nil [171 206]) ("setq" code nil nil [207 263]) ("global-semantic-mru-bookmark-mode" code nil nil [295 332]) ("semantic-ia" include nil (dependency-file "/Users/yurikashnikov/.emacs.d/cedet/semantic/semantic-ia.el") [422 444]) ("setq-mode-local" code nil nil [447 558]) ("setq-mode-local" code nil nil [559 672]) ("setq-mode-local" code nil nil [673 789]) ("load-file" code nil nil [791 831]) ("eassist" include nil nil [832 850]) ("my-cedet-hook" function nil nil [878 1377]) ("add-hook" code nil nil [1378 1423]) ("add-hook" code nil nil [1424 1465]) ("my-c-mode-cedet-hook" function nil nil [1467 1809]) ("add-hook" code nil nil [1812 1864]) ("setq-default" code nil nil [1869 1934]) ("custom-set-variables" code nil nil [2049 2113]))
+    :file "emacs-rc-cedet.el"
+    :pointmax 3107
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "emacs-rc-ecb.el"
+    :major-mode 'emacs-lisp-mode
+    :tags '(("add-to-list" code nil nil [1 42]) ("cl" include nil nil [43 56]) ("ecb" include nil nil [57 71]))
+    :file "emacs-rc-ecb.el"
+    :pointmax 149
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )
